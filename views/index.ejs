@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Users</h1>
+    <a href="/student" >  <input type="button" value="+ add user" class="submitbtn"> </a>
+    <br>
+    <br>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Phone</th>
+            <th>Email</th>
+        </tr>
+        <% users.forEach(user => { %>
+            <tr>
+                <td><%= user.id %></td>
+                <td><%= user.name %></td>
+                <td><%= user.age %></td>
+                <td><%= user.phone %></td>
+                <td><%= user.email %></td>
+            </tr>
+        <% }); %>
+    </table>
+</body>
+</html>

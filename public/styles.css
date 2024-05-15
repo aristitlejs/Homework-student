@@ -1,0 +1,28 @@
+
+thead{
+    background-color: #FFA07A	;
+}
+
+table, th, td {
+    border: 3px solid #FF7F50;
+    border-collapse: collapse;
+    padding:10px;
+}
+
+input[type=text], select {
+    width: 320px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .submitbtn{
+    background-color: green;
+    border-radius: 5px ; 
+    color:#fff;
+    height: 40px ;
+    width: 100px;
+  }
